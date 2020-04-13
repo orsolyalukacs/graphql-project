@@ -44,8 +44,5 @@ mutation{
 ```
 
 ### 3. 
-```
 Read more about this:
 [graphql queries](https://graphql.org/learn/queries/)
-
-```
