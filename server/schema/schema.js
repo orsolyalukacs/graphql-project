@@ -1,5 +1,8 @@
 const graphql = require('graphql');
 var _ = require('lodash');
+const User = require('../model/user');
+const Hobby = require('../model/hobby');
+const Post = require('../model/post');
 
 //dummy data
 var usersData = [
@@ -144,7 +147,7 @@ const RootQuery = new GraphQLObjectType({
     }
 });
 
-//Mutations
+// Mutations
 const Mutation = new GraphQLObjectType({
     name: 'Mutation',
     fields: {
