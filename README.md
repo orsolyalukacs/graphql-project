@@ -1,4 +1,5 @@
-# graphql-project
+# graphql-project 
+I started this project by following a mini graphql course on udemy by [pdichone](https://github.com/pdichone).
 
 ### 1. From server folder install packages and start the app:
 ```
@@ -44,5 +45,11 @@ mutation{
 ```
 
 ### 3. 
-Read more about this:
+You can also make mutations like createUser, updateUser, removeUser, etc. for hobby and post as well.
+Read more about queries:
 [graphql queries](https://graphql.org/learn/queries/)
+
+
+### 4.
+I have deployed this app on heroku:
+[graphql012](https://graphql012.herokuapp.com/graphql)
