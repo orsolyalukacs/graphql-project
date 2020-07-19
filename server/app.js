@@ -10,12 +10,9 @@ const app = express();
 const schema = require('./schema/schema');
 const testSchema = require('./schema/types_schema');
 
-/* 
-    mongodb://<username>:<password>@ds251618.mlab.com:51618/graphql-project
- */
+const mongoLogin = 'mongodb://username:password@ds12345.mlab.com:12345/graphql-project'; // replace this with your own mongodb usernam and pw
 
-
-mongoose.connect('mongodb://orsisi:makimakk22@ds251618.mlab.com:51618/graphql-project',
+mongoose.connect(mongoLogin,
 { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
 mongoose.connection.once('open', () => {
     console.log('Yes! We are connected')
